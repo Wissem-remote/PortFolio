@@ -23,7 +23,7 @@ export const NavBar =()=> {
                         <Link to="/skill" className="nav-link mainsx "  >Skills</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/work" className="nav-link mainsx " >Work</Link>
+                        <Link to="/work" className="nav-link mainsx " >Projets</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/contact" className="nav-link mainsx " >Contact</Link>

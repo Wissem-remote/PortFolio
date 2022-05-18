@@ -42,7 +42,7 @@ export const Home=()=> {
                 animate="visible"
                 variants={variants}
                 transition={{ type: "tween", duration: 1 }}
-                whileHover={{ scale: 1.1 }}
+                //whileHover={{ scale: 1.1 }}
                 exit="hidden"
                 className="col-lg-6 ">
                 <img className="p1" src="/img/web.png" alt="web"/>
@@ -58,8 +58,9 @@ export const Home=()=> {
             
           
             <ul className="list-inline">
-                <motion.li  transition={{ type: "tween", duration: 0.5 }} whileHover={{ scale: 1.1, y: -10 }} className="list-inline-item"><a href="#git" ><i className="bi bi-github" style={{fontSize: '2rem'}}></i></a></motion.li>
-                <motion.li transition={{ type: "tween", duration: 0.5 }} whileHover={{ scale: 1.1, y: -10 }} className="list-inline-item">  <a href="#linkedin"><i className="bi bi-linkedin" style={{fontSize: '2rem'}}></i></a></motion.li>
+                <motion.li  transition={{ type: "tween", duration: 0.5 }} whileHover={{ scale: 1.1, y: -10 }} className="list-inline-item"><a href="https://github.com/Wissem-remote" ><i className="bi bi-github" style={{fontSize: '2rem'}}></i></a></motion.li>
+                <motion.li transition={{ type: "tween", duration: 0.5 }} whileHover={{ scale: 1.1, y: -10 }} className="list-inline-item">  <a href="https://www.linkedin.com/in/wissem-rezki-3b4889231/"><i className="bi bi-linkedin" style={{fontSize: '2rem'}}></i></a></motion.li>
+                <motion.li transition={{ type: "tween", duration: 0.5 }} whileHover={{ scale: 1.1, y: -10 }} className="list-inline-item">  <a href="https://www.doyoubuzz.com/wissem-rezki"><i className="bi bi-link-45deg" style={{fontSize: '2rem'}}></i></a></motion.li>
             </ul>
             </motion.div>
         </div>

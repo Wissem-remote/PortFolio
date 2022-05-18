@@ -11,49 +11,82 @@ export const Work=()=> {
         
     return <>
     <NavBar/>
-    <div className="container">
-        <div className="row ">
-            
+   
+      
+     
             <motion.div 
                 initial="hidden"
                 animate="visible"
                 variants={variants}
                 transition={{ type: "tween", duration: 1 }}
                 exit="hidden"
-                className="col-lg-6 d-flex align-items-center  m8" >
-                     <div >
-                <h2 className="t2 mb-2">Mes <span className="blue">Prototype</span><i className='bx bx-rocket'></i></h2>
-                    
+                className="col-lg-7 m-auto d-flex  m8" >
+                      
+                      <div className="container">
+                      <h2 className="t2 mb-4 mt-4">Mes <span className="blue">Projets</span><i className='bx bx-rocket'></i></h2>
+                      <div className="row ">
+                  
+                      <a className="text-decoration-none  col-5 mb-4" href="https://admiring-nobel-ef6c78.netlify.app/">
                     <motion.div
                     transition={{ type: "tween", duration: 1 }}
                     whileHover={{ scale: 1.1 }}
-                    className="card " style={{width: '18rem'}}>
-                    <a href="https://admiring-nobel-ef6c78.netlify.app/">
+                    className="card w" >
+                  
                     <img src="/img/hero.png" className="card-img-top img mt-2 " alt="Web-site"/>
-                    </a>
+                    
                 
 
                     <div className="card-body">
-                        <p className="card-text text-center ps">- Mon Aplication Web -</p>
+                        <p className="card-text text-center ps">- Geek -</p>
                         <p className="card-text text-center pss">- MongoDB Express -</p>
                         <p className=" card-text text-center pss">- React NodeJs -</p>
                     </div>
                     </motion.div>
-                    </div>
+                    </a>
+
+                    <div className="col-1"></div>
                     
+                    <a className="text-decoration-none  col-5 mb-4" href="https://disney-clone-gold.vercel.app/">
+                    <motion.div
+                    transition={{ type: "tween", duration: 1 }}
+                    whileHover={{ scale: 1.1 }}
+                    className="card w" >
+                   
+                    <img src="/img/disney.png" className="card-img-top imgs mt-2 " alt="Web-site"/>
+                    
+                
+
+                    <div className="card-body">
+                        <p className="card-text text-center ps ">- Disney  -</p>
+                        <p className="card-text text-center pss">- Next.js GraphCms -</p>
+                        <p className=" card-text text-center pss">- GraphQl Tailwindcss -</p>
+                    </div>
+                    </motion.div>
+                    </a>
+
+                    <a className="text-decoration-none  col-5 mb-4" href="https://candy-crush-rosy.vercel.app/">
+                    <motion.div
+                    transition={{ type: "tween", duration: 1 }}
+                    whileHover={{ scale: 1.1 }}
+                    className="card w" >
+                   
+                    <img src="/img/candy.png" className="card-img-top imgs mt-2 " alt="Web-site"/>
+                    
+                
+
+                    <div className="card-body">
+                        <p className="card-text text-center ps ">- Candy-Crush  -</p>
+                        <p className="card-text text-center pss">- React.js Tailwindcss -</p>
+                        <p className="card-text text-center pss">- Only Pc -</p>
+                    </div>
+                    </motion.div>
+                    </a>
+                    </div>
+                    </div>
             </motion.div> 
-            <motion.div
-                initial="hidden"
-                animate="visible"
-                variants={variants}
-                transition={{ type: "tween", duration: 1 }}
-                whileHover={{ scale: 1.1 }}
-                exit="end"
-                className="col-lg-6 d-flex align-items-center">
-                     <img className="p2" src="/img/work.png" alt="web"/>
-                </motion.div>
+       
       
-        </div>
-    </div>
+       
+    
     </>
 }

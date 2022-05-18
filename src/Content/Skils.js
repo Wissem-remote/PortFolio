@@ -29,28 +29,33 @@ export const Skils=()=> {
                                 <Box value="HTML">
                                 <i className='bx bxl-html5 bx-tada  ' style={{fontSize:'95px'}}></i>
                                 </Box>
-                                <Box value="CSS">
-                                <i className='bx bxl-css3 bx-tada ' style={{fontSize:'95px'}}></i>
-                                </Box>
+                                
                                 <Box value="Bootstrap">
                                 <i className='bx bxl-bootstrap bx-tada'  style={{fontSize:'95px'}} ></i>
+
                                 </Box>
                                 <Box value="Javascript">
                                 <i className='bx bxl-javascript bx-tada' style={{fontSize:'95px'}} ></i>
                                 </Box>
+
                                 <Box value="React">
                                 <i className='bx bxl-react bx-spin' style={{fontSize:'95px'}} ></i>
                                 </Box>
+                                <Box value="Nextjs">
+                                <i className='bx bxs-up-arrow bx-tada ' style={{fontSize:'95px'}}></i>
+                                </Box>
                                 <Box value="Nodejs">
                                 <i className='bx bxl-nodejs bx-tada' style={{fontSize:'95px'}} ></i>
+                                
                                 </Box>
                                 <Box value="UseQuery">
                                 <i className='bx bxl-react bx-tada' style={{fontSize:'95px'}} ></i>
                                 </Box>
-                                <Box value="Redux">
-                                <i className='bx bxl-redux bx-spin' style={{fontSize:'95px'}} ></i>
+                                <Box value="Tailwind">
+                                <i className='bx bxl-tailwind-css bx-spin' style={{fontSize:'95px'}} ></i>
+                                
                                 </Box>
-                                <Box value="MongoDB">
+                                <Box value="GraphCms">
                                 <i className='bx bxs-data bx-tada' style={{fontSize:'95px'}} ></i>
                                 </Box>
                                 
