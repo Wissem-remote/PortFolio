@@ -32,7 +32,7 @@ export const Work=()=> {
                     whileHover={{ scale: 1.1 }}
                     className="card w" >
                   
-                    <img src="/img/geek.png" className="card-img-top img " alt="Web-site"/>
+                    <img src="/img/geek.png"  className="card-img-top img " alt="Web-site"/>
                     
                 
 
