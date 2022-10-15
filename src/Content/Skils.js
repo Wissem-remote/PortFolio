@@ -12,7 +12,7 @@ export const Skils=()=> {
     return <>
         <NavBar />
     <div className="container">
-        <div className="row ">
+        <div className="row d-flex justify-content-center">
         
                 <motion.div
                 initial="hidden"
@@ -20,42 +20,42 @@ export const Skils=()=> {
                 variants={variants}
                 transition={{ type: "tween", duration: 1 }}
                 exit="end"
-                className="col-lg-6 d-flex align-items-center m9">
+                className="col-12 col-md-12 col-lg-6 d-flex align-items-center m9">
                 
-                <div >
-                <h2 className="t2 mb-2">Competence <span className="blue">Professionnel</span><i className='bx bx-rocket'></i></h2>
+                <div className="col-12 col-md-12 col-lg-12 " >
+                <h2 className="text-center t2 mb-2">Competence <span className="blue">Professionnel</span><i className='bx bx-rocket'></i></h2>
 
-                                <div className="row ">
-                                <Box value="HTML">
-                                <i className='bx bxl-html5 bx-tada  ' style={{fontSize:'95px'}}></i>
+                                <div className="row d-flex justify-content-center">
+                                <Box value="HTML/CSS">
+                                <i className='bx bxl-html5   ' style={{fontSize:'95px'}}></i>
                                 </Box>
                                 
-                                <Box value="Bootstrap">
-                                <i className='bx bxl-bootstrap bx-tada'  style={{fontSize:'95px'}} ></i>
+                                <Box value="Javascript">
+                                <i className='bx bxl-javascript '  style={{fontSize:'95px'}} ></i>
 
                                 </Box>
-                                <Box value="Javascript">
-                                <i className='bx bxl-javascript bx-tada' style={{fontSize:'95px'}} ></i>
+                                <Box value="Php">
+                                <i className='bx bxl-php ' style={{fontSize:'95px'}} ></i>
                                 </Box>
 
                                 <Box value="React">
-                                <i className='bx bxl-react bx-spin' style={{fontSize:'95px'}} ></i>
+                                <i className='bx bxl-react ' style={{fontSize:'95px'}} ></i>
                                 </Box>
-                                <Box value="Nextjs">
-                                <i className='bx bxs-up-arrow bx-tada ' style={{fontSize:'95px'}}></i>
+                                <Box value="Symfony">
+                                <i className='bx bxl-php bx-tada ' style={{fontSize:'95px'}}></i>
                                 </Box>
-                                <Box value="Nodejs">
-                                <i className='bx bxl-nodejs bx-tada' style={{fontSize:'95px'}} ></i>
+                                <Box value="MySql">
+                                <i className='bx bxs-data ' style={{fontSize:'95px'}} ></i>
                                 
                                 </Box>
-                                <Box value="UseQuery">
-                                <i className='bx bxl-react bx-tada' style={{fontSize:'95px'}} ></i>
+                                <Box value="Bootstrap">
+                                <i className='bx bxl-bootstrap ' style={{fontSize:'95px'}} ></i>
                                 </Box>
                                 <Box value="Tailwind">
                                 <i className='bx bxl-tailwind-css bx-spin' style={{fontSize:'95px'}} ></i>
                                 
                                 </Box>
-                                <Box value="GraphCms">
+                                <Box value="PhpMyAdmin">
                                 <i className='bx bxs-data bx-tada' style={{fontSize:'95px'}} ></i>
                                 </Box>
                                 
@@ -71,8 +71,8 @@ export const Skils=()=> {
                 transition={{ type: "tween", duration: 1 }}
                 whileHover={{ scale: 1.1 }}
                 exit="end"
-                className="col-lg-6 d-flex align-items-center">
-                        <img className="p2" src="/img/skills.png" alt="web"/>
+                className="col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
+                        <img className="p2" src="/img/skills.jpg" alt="web"/>
                 </motion.div>
     </div>
     </div>

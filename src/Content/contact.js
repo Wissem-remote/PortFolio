@@ -38,7 +38,7 @@ export const Contact=()=> {
     variants={variants}
     transition={{ type: "tween", duration: 1 }}
     exit="end"
-    className="blue text-center mt-5 t1 c1"> Contact </motion.h2>
+    className="blue text-center mt-5 t1 c1"> Contact Me ! </motion.h2>
     
         <div className="row  m4">
         
