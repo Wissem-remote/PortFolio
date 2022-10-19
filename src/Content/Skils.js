@@ -55,8 +55,8 @@ export const Skils=()=> {
                                 <i className='bx bxl-tailwind-css bx-spin' style={{fontSize:'95px'}} ></i>
                                 
                                 </Box>
-                                <Box value="PhpMyAdmin">
-                                <i className='bx bxs-data bx-tada' style={{fontSize:'95px'}} ></i>
+                                <Box value="Stripe">
+                                <i className='bx bxl-stripe bx-tada' style={{fontSize:'95px'}} ></i>
                                 </Box>
                                 
                                 </div>
