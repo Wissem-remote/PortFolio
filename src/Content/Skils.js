@@ -5,13 +5,13 @@ import { motion } from "framer-motion"
 
 export const Skils=()=> {
     const variants = {
-        end: { opacity: 0,scale: 0.5, x: 400, },
-        hidden: { opacity: 0,scale: 0.5, y: 400, },
-        visible: { opacity: 1,scale: 1,y:0  },
+        end: { opacity: 0, y: 40, },
+        hidden: { opacity: 0, y: 40, },
+        visible: { opacity: 1,y:0  },
         }
     return <>
         <NavBar />
-    <div className="container">
+    <div className="container mt-5" >
         <div className="row d-flex justify-content-center">
         
                 <motion.div

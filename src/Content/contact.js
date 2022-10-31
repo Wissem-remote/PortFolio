@@ -11,8 +11,8 @@ export const Contact=()=> {
     const [lodding,setLodding]=useState(false)
     const [add,setAdd]=useToggle(false)
     const variants = {
-        end: { opacity: 0,scale: 0.5, x: 400, },
-        hidden: { opacity: 0,scale: 0.5, y:-400, },
+        end: { opacity: 0, y : 40 },
+        hidden: { opacity: 0, y : 40 },
         visible: { opacity: 1,scale: 1,y:0  },
         }
        
@@ -33,7 +33,7 @@ export const Contact=()=> {
     <div className="container">
     <motion.h2 
     initial="hidden"
-    whileHover={{ scale: 1.1, y: -10 }}
+    whileHover={{ scale: 1.1 }}
     animate="visible"
     variants={variants}
     transition={{ type: "tween", duration: 1 }}
@@ -51,11 +51,11 @@ export const Contact=()=> {
                 className="col-8 m-auto mb-auto ">
                     <form onSubmit={onClick}>
         <div className=" mb-3">
-            <input type="text" className="form-control" name="name" placeholder="Name" required/>
+            <input type="text" className="form-control p-3" name="name" placeholder="Name" required/>
             
         </div>
         <div className="mb-3">
-            <input type="email" className="form-control" name="email" placeholder="name@example.com" required/>
+            <input type="email" className="form-control p-3" name="email" placeholder="name@example.com" required/>
             
         </div>
         <div className="mb-3">
