@@ -63,22 +63,7 @@ export const Work=()=> {
                             </a>
 
                                 {/* Geek */}
-                            <a className="text-decoration-none  col-12 col-md-12 col-lg-6 mb-4" href="https://admiring-nobel-ef6c78.netlify.app/">
-                            <motion.div
-                            transition={{ type: "tween", duration: 1 }}
-                            whileHover={{ scale: 1.1 }}
-                            className="card w" >
-                        
-                            <img src="/img/geek.png"  className="card-img-top img " alt="Web-site"/>
                             
-                        
-
-                            <div className="card-body">
-                                <p className="card-text text-center ps">- Geek -</p>
-                                <p className=" card-text text-center pss">- React NodeJs -</p>
-                            </div>
-                            </motion.div>
-                            </a>
                     
                         </div>
                     </div>
