@@ -26,7 +26,22 @@ export const Work=()=> {
                         <h2 className="t2 mb-4 mt-4  text-center">Mes <span className="blue">Projets</span><i className='bx bx-rocket'></i></h2>
                             <div className="row ">
                 
+                            {/* Inginus */}
+                            <a className="text-decoration-none col-12 col-md-12 col-lg-6 mb-4" href="https://inginus-wissem-remote.koyeb.app/">
+                            <motion.div
+                            transition={{ type: "tween", duration: 1 }}
+                            whileHover={{ scale: 1.1 }}
+                            className="card w" >
+                            <img src="/img/inginus.png" className="card-img-top imgs  " alt="Web-site"/>
+                            
+                        
 
+                            <div className="card-body">
+                                <p className="card-text text-center ps ">- Inginus  -</p>
+                                <p className="card-text text-center pss">- Php Symfony - Stripe  -</p>
+                            </div>
+                            </motion.div>
+                            </a>
                 
                             {/* Disney */}
                             <a className="text-decoration-none col-12 col-md-12 col-lg-6 mb-4" href="https://disney-clone-gold.vercel.app/">
